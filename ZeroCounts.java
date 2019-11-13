@@ -12,7 +12,7 @@ public class ZeroCounts {
     }
     public int count(int n) {
         int count = 0;
-        if (n == 0) {
+        if (n < 1) {
             return 1;
         }
         else {
