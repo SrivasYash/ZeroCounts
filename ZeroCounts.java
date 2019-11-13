@@ -8,7 +8,7 @@ public class ZeroCounts {
 
         ZeroCounts z = new ZeroCounts();
         int count = z.count(n);
-        System.out.println("Number of zeros in " + n + " are: " + count);
+        System.out.println("Number of zeros from 1 to " + n + " are: " + count);
     }
     public int count(int n) {
         int count = 0;
